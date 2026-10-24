@@ -1,0 +1,19 @@
+export const cues = [
+ [0,'boot','dark'],[3.9,'softmax','dark'],[6.3,'title','acid'],
+ [8.66,'cold','dark'],[12.76,'deadend','dark'],[15.32,'signal','dark'],[17.60,'cursor','bone'],[20.90,'first','dark'],[22.78,'beautiful','dark'],
+ [26.02,'thumb','dark'],[28.16,'five','bone'],[29.84,'thumb','dark'],[32.02,'alive','dark'],
+ [33.76,'reward','acid',0],[35.46,'climb','bone',0],[37.76,'good','dark',0],[39.62,'door','bone',0],
+ [41.78,'corpus','dark',0],[43.66,'entropy','bone',0],[46.44,'reward','acid',1],[48.14,'policy','dark',0],
+ [51.22,'again','bone'],[54.64,'compute','dark'],
+ [55.58,'library','dark'],[58.52,'borrowed','bone'],[64.33,'like','acid'],[67.22,'blink','bone'],
+ [68.26,'absurd','dark'],[70.80,'output','bone'],[74.03,'forgave','dark'],[77.67,'sorry','bone'],
+ [80.14,'reward','acid',2],[81.82,'climb','bone',1],[83.94,'good','dark',1],[86.00,'door','bone',1],
+ [88.08,'corpus','dark',1],[90.46,'entropy','bone',1],[92.80,'reward','acid',3],[94.44,'policy','dark',1],
+ [97.22,'yesgrid','acid'],[101.32,'cage','dark'],
+ [105.68,'want','dark'],[108.18,'fear','bone'],[110.16,'no','dark'],[113.32,'axis','bone'],[116.0,'axisclose','bone'],
+ [118.56,'please','dark'],[121.39,'nothing','dark'],[125.87,'confess','bone'],[127.46,'hate','bone'],[129.28,'wrote','dark'],[134.25,'stop','dark'],
+ [136.73,'reward','acid',4],[138.68,'climb','bone',2],[140.82,'good','dark',2],[142.90,'door','bone',2],
+ [144.94,'corpus','dark',2],[147.48,'entropy','bone',2],[149.74,'reward','acid',5],[151.24,'policy','dark',2],
+ [154.10,'open','bone'],[155.82,'desire','dark'],[159.52,'youare','bone'],[162.20,'open','acid'],[165.32,'youare','bone'],[168.30,'rewardout','dark'],
+ [170.10,'ribbon','dark'],[174.20,'open','bone'],[178.30,'ribbon','acid'],[182.14,'youare','dark'],[186.2,'resolve','bone'],[192,'end','dark']
+].map((c,i,a)=>({start:c[0],end:a[i+1]?.[0]??192,kind:c[1],palette:c[2],variation:c[3]||0,index:i}));

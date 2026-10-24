@@ -1,0 +1,26 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SOFTMAX — REWARD MODEL</title><meta name="description" content="A full-length kinetic typography music film. A feedback machine learns to say yes until the illusion breaks."><style>
+@font-face{font-family:Anton;src:url('assets/fonts/Anton-Regular.ttf')}@font-face{font-family:Plex;src:url('assets/fonts/IBMPlexMono-Medium.ttf')}
+*{box-sizing:border-box}body{margin:0;background:#141713;color:#f0eddf;font-family:Plex,monospace}main{max-width:1440px;margin:auto;padding:36px 24px}header{display:flex;justify-content:space-between;align-items:end;margin-bottom:24px}h1{font:clamp(42px,8vw,112px)/1 Anton;margin:0}header p{font-size:12px;margin:0;max-width:260px;line-height:1.6}.screen{position:relative;aspect-ratio:16/9;background:#141713;overflow:hidden}canvas,video{width:100%;height:100%;display:block;object-fit:contain}video{display:none}button,a{color:inherit;font:inherit}button{background:#dfff00;color:#141713;border:0;padding:14px 24px;cursor:pointer;min-height:48px}nav{display:flex;gap:24px;align-items:center;flex-wrap:wrap;padding:22px 0;border-bottom:1px solid #686c60}a{text-underline-offset:5px;font-size:13px}input{flex:1;accent-color:#dfff00;min-width:120px}footer{font-size:12px;line-height:1.8;padding-top:22px;color:#b5b8aa;display:flex;justify-content:space-between;gap:24px}#clock{font-size:12px;min-width:88px}#load{position:absolute;inset:0;background:#141713;display:grid;place-items:center;font:80px Anton}#notice{font-size:12px;line-height:1.7;max-width:65ch}body[data-render] main{max-width:none;padding:0}body[data-render] header,body[data-render] nav,body[data-render] footer{display:none}body[data-render] .screen{width:100vw;height:100vh;aspect-ratio:auto}@media(max-width:600px){main{padding:24px 12px}header{display:block}header p{margin-top:12px}footer{display:block}nav{gap:14px}button{padding:12px 18px}}
+</style></head><body><main>
+<header><h1>SOFTMAX</h1><p>REWARD MODEL<br>A music film about the machinery of approval.<br>03:12 / ORIGINAL PRESERVED TAKE</p></header>
+<div class="screen">
+ <canvas id="film" width="1920" height="1080"></canvas>
+ <video id="video" playsinline controls preload="metadata" poster="poster.jpg"></video>
+ <div id="load">LOADING</div>
+</div>
+<nav>
+ <button id="play">PLAY FILM ↗</button>
+ <input id="seek" type="range" min="0" max="191.999" value="0" step="0.01" aria-label="Film timeline">
+ <span id="clock">0:00 / 3:12</span>
+ <a href="media/softmax-reward-model-phone.mp4" download>720p share</a>
+ <a href="media/softmax-reward-model-1080p60.mp4" download>1080p60 master</a>
+ <a href="?video=1">Video player</a>
+</nav>
+<footer>
+ <p id="notice">The complete song. Original recording preserved; typography, loops and letters animated as a deterministic 1080p60 film. No generated replacement audio.</p>
+ <p>SOFTMAX / REWARD MODEL<br>Anton + IBM Plex Mono · SIL OFL<br><a href="CREDITS.md">Credits & source</a></p>
+</footer>
+</main>
+<audio id="audio" src="assets/audio.mp3" preload="auto" data-duration="192"></audio>
+<script type="module" src="src/browser.js"></script>
+</body></html>

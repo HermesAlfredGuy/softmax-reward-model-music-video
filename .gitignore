@@ -1,0 +1,16 @@
+node_modules
+out
+dist
+refs/*.mp4
+refs/*.webm
+qa/reference*
+assets/audio.wav
+qa/*.raw
+.env*
+qa/
+refs/
+build
+.env
+*.pem
+*.key
+.DS_Store
