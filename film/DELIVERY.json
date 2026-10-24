@@ -1,0 +1,19 @@
+{
+  "state": "delivered",
+  "url": "https://hermesalfredguy.github.io/softmax-reward-model-music-video/?video=1",
+  "master": "out/softmax-reward-model-final-1080p60.mp4",
+  "master_sha256": "37113c7e321ab1d07bbbc7b4379e2efc008d34c296dd411d55e8edf074c7a43c",
+  "duration_seconds": 192,
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "video_frames": 11520,
+  "master_bytes": 80089301,
+  "share": "out/softmax-reward-model-final-phone.mp4",
+  "share_bytes": 33128416,
+  "telegram_message_id": "17453",
+  "preferred_recording_preserved": true,
+  "render_backend": "Native CPU Skia, not the PC GPU; deterministic 2D rendering was practical without waiting for the blocked Windows update",
+  "checks": ["frame-pacing packets", "zero audio offset at nine sampled boundaries", "random-access determinism", "distinct adjacent 1/60s samples", "desktop/mobile playback", "public page and final MP4 byte ranges", "actual exported frames and transition strips inspected"],
+  "limits": "Selective kinetic lyric compositions, not a literal subtitle transcript. No numerical art-quality certification claimed."
+}
